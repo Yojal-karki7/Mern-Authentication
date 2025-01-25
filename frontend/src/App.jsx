@@ -5,7 +5,7 @@ import GoogleLogin from './GoogleLogin'
 import Dashboard from './Dashboard'
 import NotFoundPage from './NotFoundPage'
 import {GoogleOAuthProvider} from '@react-oauth/google'
-import RefreshHandler from './refreshHandler'
+import RefreshHandler from './RefreshHandler'
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false)
